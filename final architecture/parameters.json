@@ -1,0 +1,63 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "virtualMachines_VMConsumer_name": {
+            "value": null
+        },
+        "privateEndpoints_pl_lb_700_name": {
+            "value": null
+        },
+        "loadBalancers_LB_private_link_name": {
+            "value": null
+        },
+        "networkInterfaces_vmconsumer409_name": {
+            "value": null
+        },
+        "publicIPAddresses_VMconsumer_ip_name": {
+            "value": null
+        },
+        "virtualNetworks_VMconsumer_vnet_name": {
+            "value": null
+        },
+        "privateEndpoints_privateendpoint_name": {
+            "value": null
+        },
+        "virtualMachines_webappproducerapp_name": {
+            "value": null
+        },
+        "privateLinkServices_Pl_service_LB_name": {
+            "value": null
+        },
+        "publicIPAddresses_VMConsumerip815_name": {
+            "value": null
+        },
+        "networkSecurityGroups_VMconsumer_nsg_name": {
+            "value": null
+        },
+        "networkInterfaces_webappproducerapp711_name": {
+            "value": null
+        },
+        "virtualNetworks_webappproducerapp_vnet_name": {
+            "value": null
+        },
+        "storageAccounts_storageaccountdemoplink_name": {
+            "value": null
+        },
+        "schedules_shutdown_computevm_vmconsumer_name": {
+            "value": null
+        },
+        "networkSecurityGroups_webappproducerapp_nsg_name": {
+            "value": null
+        },
+        "schedules_shutdown_computevm_webappproducerapp_name": {
+            "value": null
+        },
+        "privateDnsZones_privatelink_blob_core_windows_net_name": {
+            "value": null
+        },
+        "networkInterfaces_Pl_service_LB_nic_51d6701a_3a42_4cca_a846_a1df42f22777_name": {
+            "value": null
+        }
+    }
+}
