@@ -1,5 +1,7 @@
 In this demo you will learn and practice service endpoint, private link service and private endpoint.
 
+In this repository you will find two architecture a starting architecture that you practice on top of it the demo steps that you could read below. The second architecture named final architecture is a reference architecture that you could use to check if you implemented correctly all the demo steps. 
+
 In this demo steps you will practice to : 
 
 1. Implement a service endpoint on a storage account. 
