@@ -1,4 +1,4 @@
-Practice service endpoint, private link service and private endpoint
+In this demo you will learn and practice service endpoint, private link service and private endpoint.
 
 In this demo steps you will practice to : 
 
@@ -24,7 +24,7 @@ Pre demo setup:
    
 Demo steps : 
 
-Part I: Service Endpoint and Private link with Storage account:
+Part I: Service Endpoint and Private endpoint with Storage account:
 
 1.	Go to the Networking section in the storage account. In the “firewall and virtual networks” menu show that it is enabled from all networks. 
 2.	Access the blob in the storage via internet publicly. For this go to the data blob container and copy the link for the “Designer.png” picture and if needed generate a URL with a SAS signature.
