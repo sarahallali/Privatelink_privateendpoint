@@ -35,7 +35,7 @@ Part I: Service Endpoint and Private endpoint with Storage account:
 4.	Show that you can no more access the Blob from the internet (your computer). 
 5.	Connect from the VM Consumer to the storage via the browser with the same copied link.  Show that you can now access the blob. 
 6.	Go again to the Networking section and enable access for your local machine by adding the ip address of the machine.  Show that by adding this specific address you can now access the blob via the Firewall.
-7.	Now Disable the public access in the Firewall section and go to the private endpoint connections section to create a private endpoint. Add the blob as Tagged sub-resource and VMconsumer-vnet default subnet. Create the private DNS as you need it for the demo. 
+7.	Now Disable the public access in the Firewall section and go to the private endpoint connections section to create a private endpoint. Add the blob as Tagged sub-resource and VMconsumer-vnet default backendSubnet. Create the private DNS as you need it for the demo. 
 8.	Add the virtual network VM_ConsumerVNET to the private DNS Zone to access the private domain name.  Take this opportunity to explain why you need to add it.
 9.	Connect now to the storage account from the VMConsumer. Show that now you need a different URL and now you need a private DNS. Take this as an occasion to explain the raison why and how the routing is happening.
 10.	Optional step: you could add peering and access from a VM in the peered Vnet.
