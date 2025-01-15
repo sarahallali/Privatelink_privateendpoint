@@ -23,7 +23,7 @@ Pre demo setup:
 
 1.	You need to configure defender for cloud to access the “VMConsumer” with a just in time policy. Or you can add a Bastion or an RDP network rule for your machine ip adress. 
 2.	In the sitting of the storage account activate anonymous access and access key to do the demo.
-3.	Deploy the picture Designer in a blob container in the storage.
+3.	Deploy the "Designer.jpeg" picture in a blob container in the storage account and set the access of the container to Blob (anonymous read access for blobs only).
    
 Demo steps : 
 
