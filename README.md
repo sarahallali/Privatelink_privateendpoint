@@ -31,7 +31,7 @@ Part I: Service Endpoint and Private endpoint with Storage account:
 
 1.	Go to the Networking section in the storage account. In the “firewall and virtual networks” menu show that it is enabled from all networks. 
 2.	Access the blob in the storage via internet publicly. For this go to the data blob container and copy the link for the “Designer.png” picture and if needed generate a URL with a SAS signature.
-3.	Go again to the Networking section in the storage account and switch now to “Enabled from selected virtual networks and IP addresses”. Create a service endpoint to the VM_ConsumerVNET default subnet. 
+3.	Go again to the Networking section in the storage account and switch now to “Enabled from selected virtual networks and IP addresses”. Create a service endpoint to the VM_ConsumerVNET myPESubnet subnet. 
 4.	Show that you can no more access the Blob from the internet (your computer). 
 5.	Connect from the VM Consumer to the storage via the browser with the same copied link.  Show that you can now access the blob. 
 6.	Go again to the Networking section and enable access for your local machine by adding the ip address of the machine.  Show that by adding this specific address you can now access the blob via the Firewall.
