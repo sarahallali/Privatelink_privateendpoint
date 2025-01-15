@@ -42,8 +42,9 @@ Part I: Service Endpoint and Private endpoint with Storage account:
 
     
 Part II: Private link service with LB
-1.	Access the private link center to create a private link service. In the outbound setting refer LB_private_link as load balancer. Use LB_private_link-frontendconfig01 as frontend IP address. Use webappproducerapp-vnet/default as subnet. 
-2.	Now create a private endpoint to access the private link from the consumer network. In the resource type put Microsoft.Network/privateLinkservices and choose the resource that you have just created. In the VNET choose the VMconsumer-vnet default subnet. Take note of the private ip address used. 
+1.	Access the private link center to create a private link service. In the outbound setting refer LB_private_link as load balancer. Use myFrontEnd as frontend IP address. Use webappproducerapp-vnet/frontendSubnet as subnet. Choose 
+webappproducerapp-vnet/frontendSubnet for source NAT subnet.
+2.	Now create a private endpoint to access the private link from the consumer network. In the resource type put Microsoft.Network/privateLinkservices and choose the resource that you have just created. In the VNET choose the VMconsumer-vnetmyPESubnet subnet. Take note of the private ip address used. 
 3.	From the VM consumer access from the browser to the web app. For this put the ip address that you noted previously. Take the opportunity to explain that now the LB is represented through a new ip address. 
 Final architecture:
    
